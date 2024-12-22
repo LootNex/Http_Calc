@@ -1,11 +1,12 @@
 package main
 
-import (
-)
+import "github.com/LootNex/Http_Calc/internal/application"
 
 
 
 func main() {
 
-	RunServer()
+	application.New().RunServer()
+
+	// application.New().Run()
 }
